@@ -2,7 +2,7 @@
 layout: post
 title:  "Make Your .Ebextensions PowerShell scripts \"Self Destruct\""
 date:   2015-09-15 11:48:00
-categories: Tips, Development, Elastic Beanstalk, PowerShell
+tags: [Tips, Development, Elastic Beanstalk, PowerShell]
 cover: http://assets.boringgeek.com/imacDeskCodejpg
 ---
 

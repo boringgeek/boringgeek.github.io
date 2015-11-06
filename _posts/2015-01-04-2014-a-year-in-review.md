@@ -2,7 +2,7 @@
 layout: post
 title:  "2014 Year in Review"
 date:   2015-01-04 23:32:00
-categories: Goals, World Domination, Retrospective
+tags: [Goals, World Domination, Retrospective]
 cover: http://assets.boringgeek.com/imacSceneryReduced.jpg
 ---
 

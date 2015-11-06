@@ -2,7 +2,7 @@
 layout: post
 title:  "The Year of the Hustle"
 date:   2013-01-06 12:00:00
-categories: Goals
+tags: Goals
 cover: http://assets.boringgeek.com/imacSceneryReduced.jpg
 ---
 

@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "Create an \".EBextensions\" Folder on Windows"
-date:   2015-08-20 10:25:00
-categories: Git, Development
+date:   2015-05-11 12:29:00
+tags: [Tips, Elastic Beanstalk, Development]
 cover: http://assets.boringgeek.com/imacSceneryReduced.jpg
 ---
 

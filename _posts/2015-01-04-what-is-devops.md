@@ -2,7 +2,7 @@
 layout: post
 title:  "What is DevOps"
 date:   2015-01-04 18:55:00
-categories: DevOps, OpEd
+tags: [DevOps, OpEd]
 cover: http://assets.boringgeek.com/imacSceneryReduced.jpg
 ---
 

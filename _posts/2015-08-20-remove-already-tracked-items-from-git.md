@@ -2,7 +2,7 @@
 layout: post
 title:  "Remove Already Tracked Items from Git"
 date:   2015-08-20 10:25:00
-categories: Git, Development
+tags: [Git, Development]
 cover: http://assets.boringgeek.com/imacSceneryReduced.jpg
 ---
 

@@ -2,7 +2,7 @@
 layout: post
 title:  "How to Setup Ghost on Elastic Beanstalk"
 date:   2014-07-22 00:00:00
-categories: AWS, Elastic Beanstalk, Ghost, RDS, EC2, SES, EBS, Operations
+tags: [AWS, Elastic Beanstalk, Ghost, RDS, EC2, SES, EBS, Operations]
 cover: http://assets.boringgeek.com/imacSceneryReduced.jpg
 ---
 

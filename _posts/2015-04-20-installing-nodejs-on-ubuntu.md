@@ -2,7 +2,7 @@
 layout: post
 title:  "Tips for working with Node.js on Ubuntu"
 date:   2015-04-20 21:57:00
-categories: Development, Ubuntu, Node.js
+tags: [Development, Ubuntu, Node.js]
 cover: http://assets.boringgeek.com/imacDeskCodejpg
 ---
 

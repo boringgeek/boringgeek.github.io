@@ -2,7 +2,7 @@
 layout: post
 title:  "2015 Goals and Roadmap"
 date:   2015-01-05 09:05:00
-categories: Goals, World Domination
+tags: [Goals, World Domination]
 cover: http://assets.boringgeek.com/imacSceneryReduced.jpg
 ---
 

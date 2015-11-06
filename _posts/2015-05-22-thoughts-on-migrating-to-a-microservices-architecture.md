@@ -2,7 +2,7 @@
 layout: post
 title:  "Thoughts on Migrating to a Microservices Architecture"
 date:   2015-05-22 09:25:00
-categories: Development, Microservices, Architecture, Design Patterns, Operations
+tags: [Development, Microservices, Architecture, Design Patterns, Operations]
 cover: http://assets.boringgeek.com/closedLaptopWithGlassesOnDesk.jpg
 ---
 
