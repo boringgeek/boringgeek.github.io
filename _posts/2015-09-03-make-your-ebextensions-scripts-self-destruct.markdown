@@ -1,7 +1,8 @@
 ---
 layout: post
-title:  "Make Your .Ebextensions PowerShell scripts \"Self Destruct\""
-date:   2015-09-15 11:48:00
+title: Make Your .Ebextensions PowerShell scripts "Self Destruct"
+permalink: make-your-ebextensions-scripts-self-destruct
+date: '2015-09-03 18:48:00'
 tags: [Tips, Development, Elastic Beanstalk, PowerShell]
 cover: http://assets.boringgeek.com/imacDeskCodejpg
 ---

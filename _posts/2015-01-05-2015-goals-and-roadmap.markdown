@@ -1,7 +1,8 @@
 ---
 layout: post
-title:  "2015 Goals and Roadmap"
-date:   2015-01-05 09:05:00
+title: 2015 Goals and Roadmap
+permalink: 2015-goals-and-roadmap
+date: '2015-01-05 17:05:49'
 tags: [Goals, World Domination]
 cover: http://assets.boringgeek.com/imacSceneryReduced.jpg
 ---

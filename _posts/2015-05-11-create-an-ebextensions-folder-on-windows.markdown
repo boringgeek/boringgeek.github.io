@@ -1,7 +1,8 @@
 ---
 layout: post
-title:  "Create an \".EBextensions\" Folder on Windows"
-date:   2015-05-11 12:29:00
+title: Create an ".EBextensions" Folder on Windows
+permalink: create-an-ebextensions-folder-on-windows
+date: '2015-05-11 19:29:03'
 tags: [Tips, Elastic Beanstalk, Development]
 cover: http://assets.boringgeek.com/imacSceneryReduced.jpg
 ---

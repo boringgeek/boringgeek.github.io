@@ -1,7 +1,8 @@
 ---
 layout: post
-title:  "What is DevOps"
-date:   2015-01-04 18:55:00
+title: What is DevOps
+permalink: what-is-devops
+date: '2015-01-04 18:55:00'
 tags: [DevOps, OpEd]
 cover: http://assets.boringgeek.com/imacSceneryReduced.jpg
 ---

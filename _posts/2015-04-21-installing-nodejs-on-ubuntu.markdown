@@ -1,24 +1,28 @@
 ---
 layout: post
-title:  "Tips for working with Node.js on Ubuntu"
-date:   2015-04-20 21:57:00
+title: Tips for working with Node.js on Ubuntu
+permalink: installing-nodejs-on-ubuntu
+date: '2015-04-21 04:57:04'
 tags: [Development, Ubuntu, Node.js]
 cover: http://assets.boringgeek.com/imacDeskCodejpg
 ---
 
-#### Installing Nodejs from the standard Ubuntu repos.####
+####Installing Nodejs from the standard Ubuntu repos.####
 While this won't get you bleeding edge 0.12.x, it will it will get you a relatively recent and stable version of 0.10.x.  This probably isn't a bad thing as 0.12.x is pretty new and not everything supports it - yet.  
+
 ```
 $ sudo apt-get update && sudo apt-get upgrade
 $ sudo apt-get install nodejs
 ```
 
 Important to note is that Ubuntu isn't going to call the binary "node".  Instead, its going to call it "nodejs".  Regardless of the logic behind this decision, its an easy fix by creating a simple symlink:
+
 ```
 $ sudo ln -s "$(which nodejs)" /usr/bin/node
 ```
 
 From there, most people are going to want to work with Node's package manager, NPM, so install this as well:
+
 ```
 $ sudo apt-get install npm
 ```
