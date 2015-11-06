@@ -5,6 +5,7 @@ permalink: the-tomboy-and-the-geek-is-back-online
 date: '2013-02-12 20:00:00'
 tags: [Goals, Development, WordPress]
 cover: http://assets.boringgeek.com/imacSceneryReduced.jpg
+comments: true
 ---
 
 I have finally gotten [The Tomboy and the Geek](http://www.thetomboyandthegeek.com) back online! This is third site I needed to restore and is right in-line with my [Year of the Hustle post](/the-year-of-the-hustle/). This particular site is meant to help keep our friends and family in the loop with what we've been up to. The site previously housed years worth of pictures and content, so it will take a while to get the old content (as much as we still have) republished and available.

@@ -5,6 +5,7 @@ permalink: enter-alchemy-codeworks
 date: '2013-03-25 19:00:00'
 tags: [Goals, Freelance, Entrepreneurship]
 cover: http://assets.boringgeek.com/imacSceneryReduced.jpg
+comments: true
 ---
 
 Starting from scratch, with severely limited free time, has been a challenge - to say the least. However, it has afforded me a few luxuries; most notable is that I can truly start fresh. Because of this, I have taken quite a bit of time to step back and evaluate new directions. My current company, Epoxy Labs, has served me well for many years. However, much of the work I have produced under that entity is either locked away behind NDA's or no longer online. This was by design; it was meant to provide income and experience, not an elaborate, hyped portfolio. It also worked out well because my work spoke for itself and word of mouth recommendations replaced any need for ever advertising my services. However, times are changing - as is the model for the web. Custom, contract-driven, one-off solutions are no longer the value proposition that I want to target. Instead, I feel that its time to move on to something new. My goal now is to create a fresh company with a focus on delivering simple, intuitive and elegant SaaS solutions; read: products. These need to be so compelling that the ROI is instantly understandable and the barrier to purchase must be incredibly low. They need to be worth their weight in gold, but cost the same as tin.

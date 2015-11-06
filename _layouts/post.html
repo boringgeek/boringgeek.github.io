@@ -74,6 +74,10 @@ post_class: post-template
                     <p>
                         {{ site.author-bio }}
                     </p>
+                    <div class="author-meta">
+                      <span class="author-location icon-location">Redlands, CA</span>
+                      <span class="author-link icon-link"><a href="http://www.curtisrissi.com">http://www.curtisrissi.com</a></span>
+                    </div>
                 </section>
             {% endif %}
 
@@ -81,7 +85,7 @@ post_class: post-template
             {% include share.html %}
 
             <!-- Disqus comments -->
-            {% if page.disqus %}
+            {% if page.comments %}
                 {% include disqus.html %}
             {% endif %}
 

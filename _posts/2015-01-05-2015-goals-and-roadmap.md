@@ -5,6 +5,7 @@ permalink: 2015-goals-and-roadmap
 date: '2015-01-05 17:05:49'
 tags: [Goals, World Domination]
 cover: http://assets.boringgeek.com/imacSceneryReduced.jpg
+comments: true
 ---
 
 This year I plan on changing up the process just a little bit.  While I still want to have a few goals that are for the year as a whole, I also want to come up with one **super simple and achievable** items for each month. The reason for this is that, upon reviewing last year, it became clear that there wasn't a whole lot to keep things happening.  So, this year I want to ensure that there are activities with enough frequency to keep the engagement and excitement - while still being realistic.

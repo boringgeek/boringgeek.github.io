@@ -5,6 +5,7 @@ permalink: make-your-ebextensions-scripts-self-destruct
 date: '2015-09-03 18:48:00'
 tags: [Tips, Development, Elastic Beanstalk, PowerShell]
 cover: http://assets.boringgeek.com/imacDeskCodejpg
+comments: true
 ---
 
 If you're using Amazon's PaaS offering, [Elastic Beanstalk](https://aws.amazon.com/elasticbeanstalk/), you're more than likely using .EBExtensions to control the configuration or other aspects of your applications.  And I'm sure, As any responsible devloper/admin would, you're cleaning up after yourself as well... right?

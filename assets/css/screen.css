@@ -973,6 +973,12 @@ body:not(.post-template) .post-title {
     color: #50585D;
 }
 
+.post-footer .disqus{
+  border-top: #EBF2F6 1px solid;
+  margin-top: 50px;
+  padding-top: 20px;
+}
+
 /* The subscribe icon on the footer */
 .subscribe {
     width: 28px;

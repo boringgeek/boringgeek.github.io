@@ -5,6 +5,7 @@ permalink: add-or-update-tags-on-existing-elastic-beanstalk-environments
 date: '2014-07-12 21:33:00'
 tags: [AWS, Tagging, Elastic Beanstalk]
 cover: http://assets.boringgeek.com/imacSceneryReduced.jpg
+comments: true
 ---
 
 Back in May, Amazon introduced the ability to tag your Beanstalk environments. This is great for anyone that properly uses tags to monitor, track and account for the resources they are using.  One challenge that I've run into recently, though, is that this is only during the creation of an environment; AWS currently doesnt offer the ability to add, remove or update tags to existing environments.

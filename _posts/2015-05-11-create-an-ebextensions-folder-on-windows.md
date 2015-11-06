@@ -5,6 +5,7 @@ permalink: create-an-ebextensions-folder-on-windows
 date: '2015-05-11 19:29:03'
 tags: [Tips, Elastic Beanstalk, Development]
 cover: http://assets.boringgeek.com/imacSceneryReduced.jpg
+comments: true
 ---
 
 I have a number of Linux-based applications that have been using the .ebextensions functionality of Elastic Beanstalk for quite some time. Its a great way of managing the configuration of your environments and running tasks both pre and post-deploy. However, one of my current projects is a C# .NET app and it took me a while to remember how to create a folder in Windows with a leading (.) period.  It seems so trivial, but, honestly, I can't recall the last time I've had to do it - chances are many of you can't either.

@@ -1,10 +1,12 @@
 ---
 layout: post
+comments: true
 title: The Year of the Hustle
 permalink: the-year-of-the-hustle
 date: '2013-01-06 20:00:00'
 tags: [Goals]
 cover: http://assets.boringgeek.com/imacSceneryReduced.jpg
+
 ---
 
 2013 has begun and so far its off to a great start; the holidays were fantastic, the kids are happy and Nancy and I have a renewed focus on making ourselves independent. In a nutshell, this year is going to be the year of the hustle. To help kick it off with a bang, my focus is going to be on new sites and projects built with modern tools and cloud-based infrastructure.  Yup, if it all works out, 2013 is going to be one wild ride.

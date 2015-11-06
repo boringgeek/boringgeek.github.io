@@ -5,6 +5,7 @@ permalink: another-year-of-opportunity
 date: 2014-01-08 05:12:27
 tags: [Goals, World Domination]
 cover: http://assets.boringgeek.com/imacSceneryReduced.jpg
+comments: true
 ---
 
 Every year, a large chunk of the people who set resolutions are destined for failure. Complete and utter failure. While we can all speculate the reasons, more often than not, it comes down to a combination of procrastination, unactionable goals and lack of a clear game plan.  Seriously.

@@ -5,6 +5,7 @@ permalink: what-is-devops
 date: '2015-01-04 18:55:00'
 tags: [DevOps, OpEd]
 cover: http://assets.boringgeek.com/imacSceneryReduced.jpg
+comments: true
 ---
 
 A topic that has come up in many discussions for me recently is DevOps. Its an important thing to understand, but I'm finding a lot of people have some serious misconceptions about what it is and actually means. This is surprising due to how common a practice it has become.  For instance, AWS re:Invent had an entire track dedicated to DevOps.  Regardless, its interesting to hear peoples thoughts on the subject.  

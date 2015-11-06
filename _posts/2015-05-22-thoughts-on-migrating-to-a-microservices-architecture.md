@@ -5,6 +5,7 @@ permalink: thoughts-on-migrating-to-a-microservices-architecture
 date: '2015-05-22 16:25:32'
 tags: [Development, Microservices, Architecture, Design Patterns, Operations]
 cover: http://assets.boringgeek.com/closedLaptopWithGlassesOnDesk.jpg
+comments: true
 ---
 
 I was recently asked when it made sense to choose to architect an application based on micro-services vs the more common approach of using a more centralized core framework or codebase.  Answering this over Twitter is simply impossible as the answer isn't simple. In fact, there's a lot that needs to be considered as the decision extends well beyond just the code.  

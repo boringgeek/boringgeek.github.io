@@ -5,6 +5,7 @@ permalink: installing-nodejs-on-ubuntu
 date: '2015-04-21 04:57:04'
 tags: [Development, Ubuntu, Node.js]
 cover: http://assets.boringgeek.com/imacDeskCodejpg
+comments: true
 ---
 
 ####Installing Nodejs from the standard Ubuntu repos.####

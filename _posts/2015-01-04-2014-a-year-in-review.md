@@ -5,6 +5,7 @@ permalink: 2014-a-year-in-review
 date: '2015-01-04 23:32:00'
 tags: [Goals, World Domination, Retrospective]
 cover: http://assets.boringgeek.com/imacSceneryReduced.jpg
+comments: true
 ---
 
 For the past few years I've made a list of the things I would like to accomplish in the new year. For the most part, these items are more than resolutions; they're meant as a plan of attack for personal growth and development.  Each item is something personal to me, is meant to be actionable and something I honestly hope to accomplish.  Of course, a year is quite a bit of time, so anything can happen.  Lets see how I did...

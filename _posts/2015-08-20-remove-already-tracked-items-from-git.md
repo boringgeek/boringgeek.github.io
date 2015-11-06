@@ -5,6 +5,7 @@ permalink: remove-already-tracked-items-from-git
 date: '2015-08-20 17:25:27'
 tags: [Git, Development]
 cover: http://assets.boringgeek.com/imacSceneryReduced.jpg
+comments: true
 ---
 
 After wrestling with a .NET app that wasn't excluding the "packages" directory from the repo, I realized I had missed a crucial and obvious step... **I forgot to commit the change to finalize the removal**.  Talk about one of those "you forgot a comma" moments...

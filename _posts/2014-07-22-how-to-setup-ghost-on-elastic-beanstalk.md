@@ -5,6 +5,7 @@ permalink: how-to-setup-ghost-on-elastic-beanstalk
 date: '2014-07-22 07:00:00'
 tags: [AWS, Elastic Beanstalk, Ghost, RDS, EC2, SES, EBS, Operations]
 cover: http://assets.boringgeek.com/imacSceneryReduced.jpg
+comments: true
 ---
 
 Over the past six months, the [Ghost blogging platform](http://ghost.org) has made some huge waves in the blogging world. It has a responsive, streamlined interface that gets out of the way and enables authors to blog quickly and efficiently. At a time when [WordPress](http://wordpress.org) is growing more and more complex, this is a breath of fresh air. And, even in its pre-1.0 release status, the platform is undoubtedly stable and usable.
