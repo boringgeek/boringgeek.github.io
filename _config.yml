@@ -1,5 +1,5 @@
-name: Your New Jekyll Site
-description: Blogging about stuffs
+name: BoringGeek
+description: Who says geeks are boring?
 meta_description: "Your New Jekyll Site, Blogging about stuffs"
 
 markdown: redcarpet
@@ -7,9 +7,11 @@ highlighter: pygments
 logo: false
 paginate: 15
 baseurl: /
-domain_name: 'http://yourblog-domain.com'
+domain_name: 'http://www.boringgeek.com'
 google_analytics: 'UA-XXXXXXXX-X'
 
 # Details for the RSS feed generator
-url:            'blog url'
-author:         'Your Name'
+url:            'http://www.boringgeek.com'
+author:         'Curtis Rissi'
+author-bio:     'Solution Architect and Full Stack Engineer by day and mad scientist by night. I specialize in making the impossible possible through code and technology. I also make some crazy good Korean BBQ. You know you want to try it.'
+author-pic:     'http://assets.boringgeek.com/curtis_rissi_speak_no_evil.jpg'

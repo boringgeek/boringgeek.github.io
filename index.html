@@ -3,6 +3,7 @@ layout: default
 title: Home
 cover: false
 about: 'about.html'
+cover: http://www.boringgeek.com/content/images/2015/05/imacWindowReduced.jpg
 ---
 
 <header class="main-header {% if page.cover %}" style="background-image: url({{ page.cover }}) {%else%}no-cover{% endif %}">
@@ -18,8 +19,8 @@ about: 'about.html'
         <div class="main-header-content inner">
             <h1 class="page-title">{{ site.name }}</h1>
             <h2 class="page-description">
-                {% if site.description %} {{ site.description }}. {% endif %}
-                {% if page.about %} <a href='{{ site.baseurl }}{{ page.about }}'> About me </a> {% endif %}
+                {% if site.description %} {{ site.description }} {% endif %}
+                <!--{% if page.about %} <a href='{{ site.baseurl }}{{ page.about }}'> About me </a> {% endif %}-->
             </h2>
         </div>
     </div>
@@ -45,15 +46,15 @@ about: 'about.html'
         </section>
         <footer class="post-meta">
             {% if site.author %}
-                <img class="author-thumb" src="/assets/images/profile.png" alt="Author's profile picture" nopin="nopin" />
+                <img class="author-thumb" src="{{site.author-pic}}" alt="Author's profile picture" nopin="nopin" />
                 {{ site.author }}
             {% endif %}
-            {% if post.categories.size > 0 %} 
-                {{ post.categories | array_to_sentence_string | prepend: 'on ' }} 
+            {% if post.categories.size > 0 %}
+                {{ post.categories | array_to_sentence_string | prepend: 'on ' }}
             {% endif %}
             <time class="post-date" datetime="{{ post.date | date:"%Y-%m-%d" }}">
                 {{ post.date | date_to_string }}
-            </time> 
+            </time>
         </footer>
     </article>
 
