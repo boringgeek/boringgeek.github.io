@@ -106,7 +106,7 @@ post_class: post-template
 <a class="read-next-story {% if page.previous.cover %}" style="background-image: url({{ page.previous.cover }}){% else %}no-cover{% endif %}" href="{{page.previous.url}}">
     <section class="post">
         <h2>{{page.previous.title}}</h2>
-        <p>{{page.previous.excerpt | truncatewords:19 }}</p>
+        <p>{{page.previous.excerpt | truncatewords:19 | strip_html }}</p>
     </section>
 </a>
 {% endif %}
@@ -114,7 +114,7 @@ post_class: post-template
 <a class="read-next-story prev {% if page.next.cover %}" style="background-image: url({{page.next.cover}}){% else %}no-cover{% endif %}" href="{{page.next.url}}">
     <section class="post">
         <h2>{{page.next.title}}</h2>
-        <p>{{page.next.excerpt | truncatewords:19}}</p>
+        <p>{{page.next.excerpt | truncatewords:19 | strip_html }}</p>
     </section>
 </a>
 {% endif %}
