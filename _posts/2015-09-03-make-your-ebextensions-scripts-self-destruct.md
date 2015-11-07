@@ -5,6 +5,7 @@ permalink: make-your-ebextensions-scripts-self-destruct
 date: '2015-09-03 18:48:00'
 tags: [Tips, Development, Elastic Beanstalk, PowerShell]
 cover: http://assets.boringgeek.com/imacDeskCodejpg
+description: 'Here is an insanely simple one-liner to make your .EBExtensions PowerShell completely self destruct (okay... delete themselves) upon successful execution.' 
 comments: true
 ---
 
