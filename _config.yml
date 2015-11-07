@@ -1,6 +1,7 @@
 name: Boring Geek
 description: Who says geeks are boring?
 meta_description: "Who says geeks are boring? The personal blog of Solutions Architect and Full Stack Engineer, Curtis Rissi."
+site_cover: http://assets.boringgeek.com/imacSceneryReduced.jpg
 
 markdown: redcarpet
 highlighter: pygments
