@@ -54,7 +54,7 @@ cover: http://www.boringgeek.com/content/images/2015/05/imacWindowReduced.jpg
             {% if post.tags.size > 0 %}
               on
               {% for tag in post.tags %}
-                <a href="/tag/{{ tag | downcase | replace:" ","-" }}.html">{{tag}}</a>{% if forloop.last != true %}, {% endif %}
+                <a href="/tag/{{ tag | downcase | replace:" ","-" }}/">{{tag}}</a>{% if forloop.last != true %}, {% endif %}
               {% endfor %}
             {% endif %}
             <time class="post-date" datetime="{{ post.date | date:"%Y-%m-%d" }}">

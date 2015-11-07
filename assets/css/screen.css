@@ -448,6 +448,15 @@ margin on the iframe, cause it breaks stuff. */
     visibility: hidden;
     display: none;
 }
+/* Wraps the main content & footer */
+.site-wrapper {
+    position: relative;
+    z-index: 10;
+    min-height: 100%;
+    background: #fff;
+    -webkit-transition: -webkit-transform 0.5s ease;
+            transition: transform 0.5s ease;
+}
 
 /* Creates a responsive wrapper that makes our content scale nicely */
 .inner {
@@ -1577,6 +1586,23 @@ body:not(.post-template) .post-title {
     .no-cover.author-head.main-header {
         padding: 0;
     }
+    .read-next {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        margin-top: 4rem;
+    }
+
+    .read-next p {
+        display: none;
+    }
+
+    .read-next-story.no-cover + .read-next-story.no-cover {
+        border-top: rgba(0,0,100,0.06) 1px solid;
+        border-left: none;
+    }
 
 }
 
@@ -1747,7 +1773,7 @@ body:not(.post-template) .post-title {
     }
 
     .post-template .post {
-        padding-bottom: 0;
+        /*padding-bottom: 0;*/
         margin-bottom: 0;
     }
 
@@ -1842,6 +1868,14 @@ body:not(.post-template) .post-title {
     }
     .read-next .post {
       width: 100%;
+    }
+    .read-next {
+        margin-top: 2rem;
+        margin-bottom: -37px;
+    }
+
+    .read-next .post {
+        width: 100%;
     }
 
 }

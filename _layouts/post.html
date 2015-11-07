@@ -26,7 +26,7 @@ post_class: post-template
                 {% if page.tags.size > 0 %}
                   on
                   {% for tag in page.tags %}
-                    <a href="/tag/{{ tag | downcase | replace:" ","-" }}.html">{{tag}}</a>{% if forloop.last != true %}, {% endif %}
+                    <a href="/tag/{{ tag | downcase | replace:" ","-" }}/">{{tag}}</a>{% if forloop.last != true %}, {% endif %}
                   {% endfor %}
                 {% endif %}
             </section>

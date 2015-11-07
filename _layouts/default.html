@@ -18,18 +18,16 @@
 
 </head>
 <body class="{% if page.post_class %}{{page.post_class}}{% else %}home-template{% endif %}">
-
+<div class="site-wrapper">
     {{ content }}
     <footer class="site-footer clearfix">
       <section class="copyright">
-        <a href="{{ site.baseurl }}">{{ site.name }}</a> &copy;
-              {{date format="YYYY"}} &bull; All rights reserved.
+        <a href="{{ site.baseurl }}">{{ site.name }}</a> &copy; 2015.
       </section>
-      <section class="poweredby">Made with Jekyll using
-        <a href="http://github.com/rosario/kasper">Kasper theme</a>
+      <section class="poweredby">Proudly published with <a href="http://github.com/rosario/kasper">Jekyll</a>
       </section>
     </footer>
-
+</div>
     <script type="text/javascript" src="/assets/js/jquery-1.11.1.min.js"></script>
     <script type="text/javascript" src="/assets/js/jquery.fitvids.js"></script>
     <script type="text/javascript" src="/assets/js/index.js"></script>
