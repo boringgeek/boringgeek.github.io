@@ -65,6 +65,7 @@
     <meta name="twitter:creator" content="@boringgeek">
     {% if page.url contains 'tag/' %}
       <meta name="twitter:title" content='{{ page.tag }} - {{site.name}}'>
+      <meta name="twitter:description" content='{{site-name}} posts under the {{ page.tag }} tag'>
       <meta name="twitter:url" content="{{ site.url }}{{ page.url }}">
     {% elsif page.url != "/index.html" %}
       <meta name="twitter:title" content='{{ page.title }}'>
