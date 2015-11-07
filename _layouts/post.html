@@ -23,6 +23,12 @@ post_class: post-template
                 {% if page.categories.size > 0 %}
                     {{ page.categories | array_to_sentence_string | prepend: 'on ' }}
                 {% endif %}
+                {% if page.tags.size > 0 %}
+                  on
+                  {% for tag in page.tags %}
+                    <a href="/tag/{{ tag | downcase | replace:" ","-" }}.html">{{tag}}</a>{% if forloop.last != true %}, {% endif %}
+                  {% endfor %}
+                {% endif %}
             </section>
         </header>
 
@@ -94,3 +100,22 @@ post_class: post-template
     </article>
 
 </main>
+
+<aside class="read-next">
+{% if page.previous.url %}
+<a class="read-next-story {% if page.previous.cover %}" style="background-image: url({{ page.previous.cover }}){% else %}no-cover{% endif %}" href="{{page.previous.url}}">
+    <section class="post">
+        <h2>{{page.previous.title}}</h2>
+        <p>{{page.previous.excerpt | truncatewords:19 }}</p>
+    </section>
+</a>
+{% endif %}
+{% if page.next.url %}
+<a class="read-next-story prev {% if page.next.cover %}" style="background-image: url({{page.next.cover}}){% else %}no-cover{% endif %}" href="{{page.next.url}}">
+    <section class="post">
+        <h2>{{page.next.title}}</h2>
+        <p>{{page.next.excerpt | truncatewords:19}}</p>
+    </section>
+</a>
+{% endif %}
+</aside>

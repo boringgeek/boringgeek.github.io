@@ -17,3 +17,7 @@ author-bio:     'Solution Architect and Full Stack Engineer by day and mad scien
 author-pic:     'http://assets.boringgeek.com/curtis_rissi_speak_no_evil.jpg'
 author-location: 'Redlands, CA'
 author-link:    'http://www.curtisrissi.com'
+
+# Tagging Config
+tag_page_layout: tag_page
+tag_page_dir: tag
