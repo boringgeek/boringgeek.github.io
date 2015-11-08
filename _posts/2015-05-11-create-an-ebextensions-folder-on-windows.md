@@ -5,7 +5,7 @@ permalink: create-an-ebextensions-folder-on-windows
 date: '2015-05-11 19:29:03'
 tags: [Tips, Elastic Beanstalk, Development]
 cover: http://assets.boringgeek.com/imacSceneryReduced.jpg
-description: "Hidden folder that start with a period are common on Linux, but not on Windows.  Here's how to create an .ebextensions folder for use with Elastic Beanstalk"
+description: "Hidden folder that start with a period are common on Linux, but not on Windows.  Here&#x27;s how to create an .ebextensions folder for use with Elastic Beanstalk"
 comments: true
 ---
 
