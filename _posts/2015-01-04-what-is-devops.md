@@ -5,6 +5,7 @@ permalink: what-is-devops
 date: '2015-01-04 18:55:00'
 tags: [DevOps, OpEd]
 cover: http://assets.boringgeek.com/imacSceneryReduced.jpg
+description: 'A brief description of the importance and meaning of "DevOps" and why it should matter to development teams.'
 comments: true
 ---
 

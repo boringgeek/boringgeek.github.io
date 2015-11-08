@@ -5,6 +5,7 @@ permalink: remove-already-tracked-items-from-git
 date: '2015-08-20 17:25:27'
 tags: [Git, Development]
 cover: http://assets.boringgeek.com/imacSceneryReduced.jpg
+description: 'Quick tip on recursively removing already tracked folders from Git. As simple as three steps, just be sure to commit.'
 comments: true
 ---
 

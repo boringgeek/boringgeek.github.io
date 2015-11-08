@@ -5,6 +5,7 @@ permalink: 2014-a-year-in-review
 date: '2015-01-04 23:32:00'
 tags: [Goals, World Domination, Retrospective]
 cover: http://assets.boringgeek.com/imacSceneryReduced.jpg
+description: "A review of my 2014 annual goals and road-map for personal development and achievement."
 comments: true
 ---
 

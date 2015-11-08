@@ -5,6 +5,8 @@ permalink: 2015-goals-and-roadmap
 date: '2015-01-05 17:05:49'
 tags: [Goals, World Domination]
 cover: http://assets.boringgeek.com/imacSceneryReduced.jpg
+description: "ScrumMaster, AWS CSA, Chef, increased social networking and other goals; a game-plan and road-map for continued success and personal growth throughout 2015."
+meta_title: "My 2015 road-map for continued success and personal development."
 comments: true
 ---
 

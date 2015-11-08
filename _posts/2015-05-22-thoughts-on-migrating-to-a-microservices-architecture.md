@@ -5,6 +5,7 @@ permalink: thoughts-on-migrating-to-a-microservices-architecture
 date: '2015-05-22 16:25:32'
 tags: [Development, Microservices, Architecture, Design Patterns, Operations]
 cover: http://assets.boringgeek.com/closedLaptopWithGlassesOnDesk.jpg
+description: 'Microservices are all the rage, but come with some serious considerations when moving from a monolithic architecture. Here are some things to keep in mind.'
 comments: true
 ---
 

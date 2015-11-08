@@ -4,8 +4,16 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 
-    <title>{{ site.name }} - {{ site.description }}</title>
-    <meta name="description" content="{{ site.meta_description}}" />
+    {% if page.url contains 'tag/' %}
+      <title>{{ page.tag }} - {{site.name}}</title>
+      <meta name="description" content="{{site.name}} posts under the {{ page.tag }} tag" />
+    {% elsif page.url != "/index.html" %}
+      <title>{% if page.meta_title %}{{ page.meta_title }}{% else %}{{ page.title }}{% endif %}</title>
+      <meta name="description" content="{% if page.description %}{{ page.description}}{% else %}{{ page.excerpt}}{% endif %}" />
+    {% else %}
+      <title>{{ site.name }} - {{ site.description }}</title>
+      <meta name="description" content="{{ site.meta_description}}" />
+    {% endif %}
 
     <meta name="HandheldFriendly" content="True" />
     <meta name="MobileOptimized" content="320" />
@@ -19,7 +27,7 @@
     {% if page.url != "/index.html" %}
       <link rel="canonical" href="{{ site.url }}{{ page.url }}">
     {% else %}
-      <<link rel="canonical" href="{{ site.url }}"/>
+      <link rel="canonical" href="{{ site.url }}"/>
     {% endif %}
 
     <meta name="referrer" content="origin"/>
@@ -31,17 +39,12 @@
       <meta property="og:url" content="{{ site.url }}{{ page.url }}">
       <meta property="og:type" content="website"/>
     {% elsif page.url != "/index.html" %}
-      <meta property="og:title" content='{{ page.title }}'>
+      <meta property="og:title" content='{% if page.meta_title %}{{ page.meta_title }}{% else %}{{ page.title }}{% endif %}'>
       <meta property="og:type" content="article"/>
       <meta property="og:url" content="{{ site.url }}{{ page.url }}">
-      {% if page.description %}
-        <meta property="og:description" content='{{ page.description}}'>
-      {% else %}
-        <meta property="og:description" content='{{ page.excerpt}}'>
-      {% endif %}
+      <meta property="og:description" content='{% if page.description %}{{ page.description}}{% else %}{{ page.excerpt}}{% endif %}'>
       <meta property="article:published_time" content="{{page.date | date: "%FT%T%Z"}}"/>
       <meta property="article:modified_time" content="{{page.date | date: "%FT%T%Z"}}"/>
-
       {% if page.tags.size > 0 %}
         {% for tag in page.tags %}
           <meta property="article:tag" content="{{tag}}"/>
@@ -68,7 +71,7 @@
       <meta name="twitter:description" content='{{site.name}} posts under the {{ page.tag }} tag'>
       <meta name="twitter:url" content="{{ site.url }}{{ page.url }}">
     {% elsif page.url != "/index.html" %}
-      <meta name="twitter:title" content='{{ page.title }}'>
+      <meta name="twitter:title" content='{% if page.meta_title %}{{ page.meta_title }}{% else %}{{ page.title }}{% endif %}'>
       <meta name="twitter:url" content="{{ site.url }}{{ page.url }}">
       {% if page.description %}
         <meta name="twitter:description" content='{{ page.description}}'>
@@ -106,7 +109,7 @@
               "url": "{{site.author-link}}",
               "description": "{{site.author-bio}}"
           },
-          "headline": '{{page.title}}',
+          "headline": '{% if page.meta_title %}{{page.meta_title}}{% else %}{{page.title}}{% endif %}',
           "url": "{{ site.url }}{{ page.url }}",
           "datePublished": '{{page.date | date: "%FT%T%Z"}}',
           "dateModified": '{{page.date | date: "%FT%T%Z"}}',
