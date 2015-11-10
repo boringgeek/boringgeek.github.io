@@ -1,0 +1,22 @@
+{
+  "name": "boringgeek.github.io",
+  "version": "1.0.0",
+  "description": "Jekyll Blog",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/boringgeek/boringgeek.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/boringgeek/boringgeek.github.io/issues"
+  },
+  "homepage": "https://github.com/boringgeek/boringgeek.github.io",
+  "devDependencies": {
+    "surge": "^0.17.2"
+  }
+}
