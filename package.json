@@ -4,6 +4,7 @@
   "description": "Jekyll Blog",
   "main": "index.js",
   "scripts": {
+    "test": "echo \"no test specified\""
   },
   "repository": {
     "type": "git",
