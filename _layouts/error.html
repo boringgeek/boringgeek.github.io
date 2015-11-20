@@ -1,0 +1,57 @@
+---
+layout: default
+
+---
+
+<header class="main-header post-head {% if page.cover %}" style="background-image: url({{ page.cover }}) {%else%}no-cover{% endif %}">
+    <nav class="main-nav {% if page.cover %} overlay {% endif %} clearfix">
+        <a class="back-button icon-arrow-left" href="{{ site.baseurl }}">Home</a>
+        <a class="subscribe-button icon-feed" href="{{ site.baseurl }}rss.xml">Subscribe</a>
+    </nav>
+    <div class="vertical">
+        <div class="main-header-content inner">
+            <h1 class="page-title">{{ page.title }}</h1>
+            <h2 class="page-description">
+                Apparently this page got excited and ran off...
+            </h2>
+        </div>
+    </div>
+</header>
+
+<main id="content" class="content" role="main">
+
+        {{content}}
+
+
+        {% for post in site.posts limit:5 %}
+
+        <article class="post">
+            <header class="post-header">
+                <h2 class="post-title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
+            </header>
+            <section class="post-excerpt">
+                {{ post.excerpt }} <a class="read-more" href="{{ post.url }}">&raquo;</a>
+            </section>
+            <footer class="post-meta">
+                {% if site.author %}
+                    <img class="author-thumb" src="{{site.author-pic}}" alt="Author's profile picture" nopin="nopin" />
+                    {{ site.author }}
+                {% endif %}
+                {% if post.categories.size > 0 %}
+                    {{ post.categories | array_to_sentence_string | prepend: 'on ' }}
+                {% endif %}
+                {% if post.tags.size > 0 %}
+                  on
+                  {% for tag in post.tags %}
+                    <a href="/tag/{{ tag | downcase | replace:" ","-" }}/">{{tag}}</a>{% if forloop.last != true %}, {% endif %}
+                  {% endfor %}
+                {% endif %}
+                <time class="post-date" datetime="{{ post.date | date:"%Y-%m-%d" }}">
+                    {{ post.date | date_to_string }}
+                </time>
+            </footer>
+        </article>
+
+        {% endfor %}
+
+</main>
