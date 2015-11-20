@@ -1,16 +1,19 @@
 language: node_js
 node_js:
-  - "0.12"
+- '0.12'
 before_install:
-  - rvm install 2.2.2
-  - gem install "github-pages"
-  - gem install "html-proofer"
-  - gem install 'jekyll-tagging'
+- rvm install 2.2.2
+- gem install "github-pages"
+- gem install "html-proofer"
+- gem install 'jekyll-tagging'
 before_script:
- - chmod +x ./script/cibuild # or do this locally and commit
-script: ./script/cibuild
+- chmod +x ./script/cibuild
+script: "./script/cibuild"
 after_success:
-  - surge --project ./_site --domain www.boringgeek.com
+- surge --project ./_site --domain www.boringgeek.com
 env:
   global:
-  - NOKOGIRI_USE_SYSTEM_LIBRARIES=true # speeds up installation of html-proofer
+  - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
+notifications:
+  slack:
+    secure: Bi16PHNB7jv/tDXD+JnHnKdfQWxTVagdfeJ5eC+JMp8hU6xbqL5bW6iUEPDZzKzQEwOsOO7NJFC/D0LWPVdrPmtE+/CNBkPn+leI6MH+rxqGimrfZMpnizSjjpxV1ZQBtP7O7oILkmDVVtBDES/e3AJX3AAMeiR6M8f9PK8OhVT8uYb4lD4Aum9Z93RUk+4J3EmL06i5nci1WXZ6uKDv8jeY2Rjy+tp86L4HjGvTnYhgB63V1B+9OAqeG0jhtNhY8ny4OnRPDHTlO6Y8qn7rELXbXbBZ+Fb7DB9dwCH4Onywx+GNeS7HBwhEqZibKr/cCZ/inQPQxPJFQ8e2FnD0X6R8MLVUk8izN8oJCmXDdGGtuZD0OJ3cTxmqjA86NYY7IDN3AwoS8cZ1WyQK7WeFbJy0yCzOfE35+X5dvb/u84YqKBmg1iM8TFBHcVXZUaVTkWyNMr5YNVKpiiEAc12m7jf8PI9M77mSc6gXPNeGLppi7+sELjQGhw+9YzbUZeEFvCcjeUNlL/EhGxynyybOjH+zALtzUvPe4mudjD2cd/HuFc9QEu3dAke/FvE/xPSAA0GCfB+Kf8hqEENaQF0c8BzPhIfrqaJq6AGnt/fFhvL9YFxFbD39QU4daTe6JvJugE7kl7tX5Ya1cZOdXDjMk/Vjnh7pOnDLNs7r565Z4Hk=
