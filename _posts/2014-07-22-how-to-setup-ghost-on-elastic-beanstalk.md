@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How to Setup Ghost on Elastic Beanstalk
+title: 'How to Setup Ghost on Elastic Beanstalk'
 permalink: how-to-setup-ghost-on-elastic-beanstalk
 date: '2014-07-22 07:00:00'
 tags: [AWS, Elastic Beanstalk, Ghost, RDS, EC2, SES, EBS, Operations]
