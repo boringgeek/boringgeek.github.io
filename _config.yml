@@ -14,7 +14,7 @@ google_analytics: 'UA-12222555-1'
 # Details for the RSS feed generator
 url:            'http://www.boringgeek.com'
 author:         'Curtis Rissi'
-author-bio:     'Solution Architect and Full Stack Engineer by day and mad scientist by night. I specialize in making the impossible possible through code and technology. I also make some crazy good Korean BBQ. You know you want to try it.'
+author-bio:     'Solutions Architect and Full Stack Engineer by day and mad scientist by night. I specialize in making the impossible possible through code and technology. I also make some crazy good Korean BBQ. You know you want to try it. <br /><br/><strong>Discalaimer:</strong> I work for AWS, but unless otherwise stated, the words and thoughts expressed in this blog are my own.'
 author-pic:     'http://assets.boringgeek.com/curtis_rissi_speak_no_evil.jpg'
 author-location: 'Redlands, CA'
 author-link:    'http://www.curtisrissi.com'
