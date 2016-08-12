@@ -4,7 +4,7 @@ meta_description: "Who says geeks are boring? The personal blog of Solutions Arc
 site_cover: http://assets.boringgeek.com/imacSceneryReduced.jpg
 
 markdown: kramdown
-highlighter: pygments
+highlighter: rouge
 logo: false
 paginate: 15
 baseurl: /
