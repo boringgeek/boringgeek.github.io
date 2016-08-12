@@ -2,14 +2,18 @@ name: Boring Geek
 description: Who says geeks are boring?
 meta_description: "Who says geeks are boring? The personal blog of Solutions Architect and Full Stack Engineer, Curtis Rissi."
 site_cover: http://assets.boringgeek.com/imacSceneryReduced.jpg
-
-markdown: kramdown
-highlighter: rouge
-logo: false
-paginate: 15
 baseurl: /
 domain_name: 'http://www.boringgeek.com'
 google_analytics: 'UA-12222555-1'
+logo: false
+
+# Plugins
+gems: ['jekyll-paginate']
+paginate: 15
+
+# Conversion
+markdown: kramdown
+highlighter: rouge
 
 # Details for the RSS feed generator
 url:            'http://www.boringgeek.com'
@@ -23,3 +27,14 @@ author-link:    'http://www.curtisrissi.com'
 tag_page_layout: tag_page
 tag_page_dir: tag
 tag_permalink_style: pretty
+
+# Kramdown Config
+kramdown:
+  auto_ids:       true
+  footnote_nr:    1
+  entity_output:  as_char
+  toc_levels:     1..6
+  smart_quotes:   lsquo,rsquo,ldquo,rdquo
+  input:          GFM
+  hard_wrap:      false
+  footnote_nr:    1
