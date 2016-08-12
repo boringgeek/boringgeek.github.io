@@ -15,7 +15,7 @@ If you find yourself in the same boat - here is how you do it.
 
 To remove the directory:
 
-```
+```sh
 git rm -cache -r directory/path/
 ```
 
@@ -23,7 +23,7 @@ This will recurse through the directory and pull all of its contents out of the 
 
 To finalize this, ensure that the directory is listed in your `.gitignore` file and commit the change:
 
-```
+```sh
 git commit -m "Removed directory from tracking and added to .gitignore"
 ```
 

@@ -13,7 +13,9 @@ If you're using Amazon's PaaS offering, [Elastic Beanstalk](https://aws.amazon.c
 
 In the event that you aren't, its not tough to start.  In fact, here is the PowerShell code you need to have your scripts remove themselves after they've completed their duties.
 
-```Remove-Item -LiteralPath $MyInvocation.MyCommand.Path -Force```
+```PowerShell
+Remove-Item -LiteralPath $MyInvocation.MyCommand.Path -Force
+```
 
 Just throw that in as the last line of your PowerShell script and they'll run through their task and then - *\*poof\** - no more script!
 
